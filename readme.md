@@ -1,20 +1,20 @@
 # Assembly Register Conventions
 64 bit register conventions
-rax - function return, arithmetic, or logical operations
-rbx - Memory addressing or "args to function"
-rcx - loop counter or string operations or "args to function"
-rdx - I/O ops or "args to function"
-rdi - destination index for string operations or "args to function"
-rsi - source index for string operations or "args to function"
-rbp - base pointer for stack frames
-rsp - stack pointer
-r8-r15 - additional "args to function" or temporary registers
+- rax - function return, arithmetic, or logical operations
+- rbx - Memory addressing or "args to function"
+- rcx - loop counter or string operations or "args to function"
+- rdx - I/O ops or "args to function"
+- rdi - destination index for string operations or "args to function"
+- rsi - source index for string operations or "args to function"
+- rbp - base pointer for stack frames
+- rsp - stack pointer
+- r8-r15 - additional "args to function" or temporary registers
 
 32 bit register conventions
-eax - function return, arithmetic, or logical operations
-ebx - Memory addressing or "args to function"
-ecx - loop counter or string operations or "args to function"
-edx - I/O ops or "args to function"
+- eax - function return, arithmetic, or logical operations
+- ebx - Memory addressing or "args to function"
+- ecx - loop counter or string operations or "args to function"
+- edx - I/O ops or "args to function"
 
 # Relevant Docs
 nasm basics: https://www.nasm.us/xdoc/2.13.03/html/nasmdoc3.html
